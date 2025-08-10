@@ -24,6 +24,8 @@
     "soundex",
     "metaphone",
     "phonetic",
+    "pronounceable",
+    "similarity",
     "text",
     "string",
     "typescript",
