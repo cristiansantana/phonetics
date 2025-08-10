@@ -1,0 +1,49 @@
+{
+  "name": "@cristiansantana/phonetics",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "TypeScript library for generating phonetic keys from text strings to improve sound-based fuzzy search",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Cristián Santana",
+    "email": "hola@cristiansantana.cl"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristiansantana/chile-rut.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "search",
+    "fuzzy",
+    "phonetics",
+    "soundex",
+    "metaphone",
+    "phonetic",
+    "text",
+    "string",
+    "typescript",
+    "library",
+    "utility"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "format-check": "prettier \"**/*.{js,ts,json}\" --check --config .prettierrc.json",
+    "format-write": "prettier \"**/*.{js,ts,json}\" --write --config .prettierrc.json",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
