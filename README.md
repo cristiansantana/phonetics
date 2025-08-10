@@ -1,4 +1,4 @@
-# phonetics-lib
+# Phonetics
 
 TypeScript library for generating **phonetic keys from text strings** to improve **sound-based fuzzy matching/searching**.  
 Includes utilities to compare phrases word-by-word using phonetic similarity.
@@ -10,13 +10,13 @@ Includes utilities to compare phrases word-by-word using phonetic similarity.
 
 ```bash
 # with npm
-npm install phonetics-lib
+npm install @cristiansantana/phonetics
 
 # with pnpm
-pnpm add phonetics-lib
+pnpm add @cristiansantana/phonetics
 
 # with yarn
-yarn add phonetics-lib
+yarn add @cristiansantana/phonetics
 ```
 
 ## Requirements
@@ -29,19 +29,19 @@ yarn add phonetics-lib
 ESM (recommended):
 
 ```ts
-import { phoneticKey, comparePhonetic } from "phonetics-lib";
+import { phoneticKey, comparePhonetic } from "@cristiansantana/phonetics";
 ```
 
 CommonJS:
 
 ```js
-const { phoneticKey, comparePhonetic } = require("phonetics-lib");
+const { phoneticKey, comparePhonetic } = require("@cristiansantana/phonetics");
 ```
 
 ## Quick usage
 
 ```ts
-import { phoneticKey, comparePhonetic } from "phonetics-lib";
+import { phoneticKey, comparePhonetic } from "@cristiansantana/phonetics";
 
 // Generate a phonetic key for a word
 const k1 = phoneticKey("nueva", "es"); // will match 'nueba'
