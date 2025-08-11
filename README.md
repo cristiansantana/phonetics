@@ -115,7 +115,7 @@ Returns a **float between 0 and 100** with **two decimal precision**.
 
 #### Returns
 
-`number` — a float in the range **0..100** with **two decimal places**.
+`number` — a float in the range **0..100**.
 
 **Examples**
 
