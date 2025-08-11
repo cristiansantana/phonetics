@@ -1,6 +1,6 @@
 {
   "name": "@cristiansantana/phonetics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "TypeScript library for generating phonetic keys from text strings to improve sound-based fuzzy search",
   "main": "dist/index.js",
