@@ -1,5 +1,7 @@
 # Phonetics
 
+![Build status](https://github.com/cristiansantana/phonetics/actions/workflows/build.yml/badge.svg)
+
 TypeScript library for generating **phonetic keys from text strings** to improve **sound-based fuzzy matching/searching**.  
 Includes utilities to compare phrases word-by-word using phonetic similarity.
 
